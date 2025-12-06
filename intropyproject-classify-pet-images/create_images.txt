@@ -1,0 +1,32 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer:  
+No, the three model architectures did not classify Dog_01.jpg as the same breed.  
+- VGG classified Dog_01.jpg as "golden retriever".  
+- ResNet classified Dog_01.jpg as "labrador retriever".  
+- AlexNet classified Dog_01.jpg as "golden retriever".  
+There was a difference between ResNet and the other two models.
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer:  
+No, not all models classified Dog_01.jpg and Dog_02.jpg as the same breed.  
+- VGG classified both Dog_01.jpg and Dog_02.jpg as "golden retriever".  
+- ResNet classified Dog_01.jpg as "labrador retriever" and Dog_02.jpg as "golden retriever".  
+- AlexNet classified both as "golden retriever".  
+ResNet showed a difference between the two images.
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer:  
+Yes, all three model architectures correctly classified Animal_Name_01.jpg (e.g., "cat") and Object_Name_01.jpg (e.g., "car") as not dogs.  
+No misclassifications were observed for these images.
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer:  
+VGG performed the best on the uploaded images.  
+It correctly classified both dog images as the same breed and correctly identified the non-dog images.  
+ResNet made a mistake in classifying the breed of Dog_01.jpg, while AlexNet performed similarly to VGG but VGG's overall confidence and consistency were higher.
