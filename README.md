@@ -1,4 +1,4 @@
-# AI Image Classifier - Dog Breed Identification 🐕
+# AI Image Classifier - Dog Breed Identification
 
 A Command Line Interface (CLI) application developed to classify images of dogs according to their breed using **Deep Learning**.
 
