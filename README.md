@@ -1,28 +1,24 @@
-# AIPND-revision
-This repository contains _REVISED_ code and associated files for the AI Programming with Python Nanodegree program. This repository consists of a number of tutorial notebooks for various coding exercises and programming labs that will be used to supplement the lessons of the course.
+# AI Image Classifier - Dog Breed Identification 🐕
 
-## Table Of Contents
+A Command Line Interface (CLI) application developed to classify images of dogs according to their breed using **Deep Learning**.
 
-### Tutorial Notebooks
-* No revisions
+This project utilizes **Transfer Learning** by leveraging pre-trained CNN architectures (ResNet, AlexNet, and VGG) to analyze and classify input images. It demonstrates the power of using pre-trained neural networks for computer vision tasks with **PyTorch**.
 
-### Programming Project
-* [Intro to Python Project - Classifying Pet Images:](https://github.com/udacity/AIPND-revision/tree/master/intropyproject-classify-pet-images "Classifying Pet Images Project") Determine which CNN architecture model works best at classifying images of dogs and their breeds.
+## Key Features 🚀
+* **Multi-Model Support:** Compare performance between different architectures:
+    * ResNet
+    * AlexNet
+    * VGG
+* **Command Line Arguments:** Flexible input handling for directory paths and model selection.
+* **Performance Metrics:** Calculates and reports accuracy statistics (Dog vs. Not-Dog, Breed Accuracy).
+* [cite_start]**Batch Processing:** Capable of processing batches of images efficiently using shell scripts[cite: 3].
 
-### NumPy and Pandas Mini-Projects
-* No revisions 
+## 🛠️ Tech Stack
+* **Language:** Python 3
+* [cite_start]**Libraries:** PyTorch[cite: 49], Torchvision, PIL (Pillow).
+* **Concepts:** Convolutional Neural Networks (CNN), Transfer Learning, Data Augmentation.
 
-### Matplotlib
-* No revisions 
-
-### Quiz Notes
-* [Notes:](https://github.com/udacity/AIPND-revision/tree/master/notes "Notes") This directory contains more information about certain quizzes that are testing more challenging concepts. Additionally, one will find the [Frequently Asked Questions](https://github.com/udacity/AIPND-revision/blob/master/notes/project_intro-to-python.md) for the _Intro to Python Project_. Click on the filename to view the contents of the notes on a _quiz_ or the _Intro to Python Project_.
-
-## Dependencies
-
-Each directory has a `requirements.txt` describing the minimal dependencies required to run the notebooks in that directory.
-
-### pip
-
-To install these dependencies with pip, you can issue `pip3 install -r requirements.txt`.
-
+## 🎓 Acknowledgements 
+This project was implemented as part of the **Udacity AI Programming with Python Nanodegree**.
+* [cite_start]Starter code and dataset provided by Udacity[cite: 46].
+* Core implementation, model logic, and result analysis developed by **Omar Al-Ali**.
