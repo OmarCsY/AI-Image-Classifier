@@ -22,3 +22,10 @@ This project utilizes **Transfer Learning** by leveraging pre-trained CNN archit
 This project was implemented as part of the **Udacity AI Programming with Python Nanodegree**.
 * [cite_start]Starter code and dataset provided by Udacity[cite: 46].
 * Core implementation, model logic, and result analysis developed by **Omar Al-Ali**.
+
+## Usage 💻
+
+To run the image classifier, use the following command in your terminal:
+
+```bash
+python main.py --dir pet_images/ --arch resnet --dogfile dognames.txt
